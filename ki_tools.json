@@ -1,0 +1,50 @@
+[
+    {
+        "name": "ChatGPT",
+        "category": "Chat",
+        "classification": "öffentlich",
+        "description": "Ein KI-gestützter Chatbot, der menschenähnliche Konversationen führen kann."
+    },
+    {
+        "name": "Copilot",
+        "category": "Chat",
+        "classification": "öffentlich",
+        "description": "Ein KI-gestützter Chatbot, der menschenähnliche Konversationen führen kann."
+    },
+    {
+        "name": "Copilot",
+        "category": "Chat",
+        "classification": "intern",
+        "description": "Ein KI-gestützter Chatbot, der menschenähnliche Konversationen führen kann."
+    },
+    {
+        "name": "DALL-E",
+        "category": "Bildgenerierung",
+        "classification": "öffentlich",
+        "description": "Ein KI-Modell zur Generierung von Bildern aus Textbeschreibungen."
+    },
+    {
+        "name": "RunwayML",
+        "category": "Videogenerierung",
+        "classification": "intern",
+        "description": "Eine Plattform zur Erstellung und Bearbeitung von Videos mit KI-gestützten Tools."
+    },
+    {
+        "name": "OpenAI API",
+        "category": "API",
+        "classification": "vertraulich",
+        "description": "Eine API, die Zugriff auf verschiedene KI-Modelle von OpenAI bietet."
+    },
+    {
+        "name": "Codex",
+        "category": "Codegenerierung",
+        "classification": "intern",
+        "description": "Ein KI-Modell zur automatischen Generierung von Code aus natürlicher Sprache."
+    },
+    {
+        "name": "Zotero",
+        "category": "Literaturreferenz",
+        "classification": "öffentlich",
+        "description": "Ein kostenloses, einfach zu bedienendes Tool zur Verwaltung von Literaturverweisen."
+    }
+]
