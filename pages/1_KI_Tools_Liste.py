@@ -19,17 +19,17 @@ selected_classification = st.session_state.get('selected_classification', None)
 # Filter the KI tools based on the selected criteria
 filtered_tools = [
     tool for tool in ki_tools
-    if (selected_category is None or tool['Kategorie'] == selected_category) and
-       (selected_classification is None or tool['Informationsklassifizierung'] == selected_classification)
+    if (selected_category is None or tool['category'] == selected_category) and
+       (selected_classification is None or tool['classification'] == selected_classification)
 ]
 
 # Display the filtered list of KI tools
 st.title('Liste der KI-Tools')
 if filtered_tools:
     for tool in filtered_tools:
-        st.subheader(tool['Name'])
-        st.write(f"Kategorie: {tool['Kategorie']}")
-        st.write(f"Informationsklassifizierung: {tool['Informationsklassifizierung']}")
-        st.write(f"Beschreibung: {tool['Beschreibung']}")
+        st.subheader(tool['name'])
+        st.write(f"Kategorie: {tool['category']}")
+        st.write(f"Informationsklassifizierung: {tool['classification']}")
+        st.write(f"Beschreibung: {tool['description']}")
 else:
     st.write("Keine KI-Tools gefunden, die den ausgewählten Kriterien entsprechen.")
