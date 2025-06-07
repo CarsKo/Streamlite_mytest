@@ -25,7 +25,7 @@ filtered_tools = [
     if tool['category'] == category and tool['classification'] == classification
 ]
 
-st.write("Gefilterte Tools:", filtered_tools)
+# st.write("Gefilterte Tools:", filtered_tools)
 
 # Zeige die gefilterte Liste an
 st.title('Liste der KI-Tools')
